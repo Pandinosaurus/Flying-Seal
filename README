@@ -1,0 +1,11 @@
+Author  : Rémi Ratajczak
+Contact : Remi.Ratajczak@gmail.com
+
+== Flying-Seal ==
+Sealy is not like the other seals from Seal City : he can fly! 
+Thanks to his ability, Sealy has been asked by the elders to travel the world to find the mysterious Seal Sea.
+Are you ready to fly for a fantastic journey with Sealy?
+
+>> python main.py
+-Python 2.7
+-Pygame

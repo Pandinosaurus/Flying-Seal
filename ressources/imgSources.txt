@@ -1,0 +1,4 @@
+Background 0: http://www.1explore.net/gamedesign3/assets/scrollingBackground.png
+Background 1: https://opengameart.org/sites/default/files/desert_BG.png
+Background 2: https://i.stack.imgur.com/ErQ2z.png
+Background 3: http://img06.deviantart.net/5254/i/2013/069/5/9/channel_02_bg___tropical_beach_by_xar623-d5xn9yk.png
