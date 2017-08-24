@@ -10,6 +10,7 @@
 # *add sounds
 # *create separated structures for each levels (background, to change walls skins + sounds)
 # *simplify the names and comments in wall.py
+# *fix issue on MacOs : game far more (too) slow compared with linux and windows
 
 import os, pygame, sys, random
 from pygame import *	#the big lib
