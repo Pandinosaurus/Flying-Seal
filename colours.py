@@ -1,5 +1,5 @@
 #Project : Flying-Seal
-#File	 : colours.py
+#File    : colours.py
 #Author  : Remi Ratajczak
 #Contact : Remi.Ratajczak@gmail.com
 
