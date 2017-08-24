@@ -54,7 +54,7 @@ class Game:
 		self.SCREENWIDTH = 300
 		self.SCREENHEIGHT = 400
 		self.SCREEN = pygame.display.set_mode((self.SCREENWIDTH, self.SCREENHEIGHT), 
-											  HWSURFACE | DOUBLEBUF | RESIZABLE)
+						       HWSURFACE | DOUBLEBUF | RESIZABLE)
 		self.MAINFONT = pygame.font.SysFont('Arial',16, True)
 	
 	def initBackground(self):
@@ -86,11 +86,11 @@ class Game:
 	
 	def setBackgroundPic(self):
 		self.BACKGROUNDPIC = pygame.image.load(self.BACKGROUNDDIR + 
-											   self.BACKGROUNDNAME + 
-											   str(random.randint(0,self.NBOFBACKGROUNDS-1))+
-										  	   self.BACKGROUNDEXT)
-		self.BACKGROUNDPIC = pygame.transform.scale(self.BACKGROUNDPIC, (self.BACKGROUNDWIDTH, 
-																		 self.BACKGROUNDHEIGHT))
+						       self.BACKGROUNDNAME + 
+						       str(random.randint(0,self.NBOFBACKGROUNDS-1))+
+						       self.BACKGROUNDEXT)
+		self.BACKGROUNDPIC = pygame.transform.scale(self.BACKGROUNDPIC, (self.BACKGROUNDWIDTH, 								
+										 self.BACKGROUNDHEIGHT))
 		self.BACKGROUNDPIC = self.BACKGROUNDPIC.convert()#video system has to be initialed
 
 	def setPlayers(self):
@@ -100,9 +100,9 @@ class Game:
 		self.PLAYERJUMPVELOCITY = 14
 		self.PLAYERGRAVITY = 0.81
 		self.PLAYER = Player(self.PLAYERSIZE, 
-							 self.PLAYERSKINPATH, 
-							 self.PLAYERJUMPVELOCITY, 
-							 self.PLAYERGRAVITY)
+				     self.PLAYERSKINPATH, 
+				     self.PLAYERJUMPVELOCITY, 
+		  		     self.PLAYERGRAVITY)
 		self.PLAYERS = pygame.sprite.RenderUpdates()
 		self.PLAYERS.add(self.PLAYER)
 
@@ -169,9 +169,9 @@ class Game:
 			#fill screen view
 			self.SCREEN.fill( black )
 			self.SCREEN.blit(self.ENTERTEXT,(self.SCREENWIDTH/2  - self.ENTERTEXT.get_width()/2,
-							  		  	   	 self.SCREENHEIGHT/2 - self.ENTERTEXT.get_height()))
+							 self.SCREENHEIGHT/2 - self.ENTERTEXT.get_height()))
 			self.SCREEN.blit(self.USERNAMETEXT,(self.SCREENWIDTH/2  - self.USERNAMETEXT.get_width()/2,
-							  		          	self.SCREENHEIGHT/2 + self.USERNAMETEXT.get_height())) 
+							    self.SCREENHEIGHT/2 + self.USERNAMETEXT.get_height())) 
 			#display
 			self.updateDisplay()
 
@@ -229,7 +229,7 @@ class Game:
 			#Show play screen for the first time	
 			self.SCREEN.blit(self.BACKGROUNDPIC, (0, 0))
 			self.SCREEN.blit(self.STARTTEXT,(self.SCREEN.get_width()  / 2   - self.STARTTEXT.get_rect()[2] / 2,
-					      	 	   			 self.SCREEN.get_height() / 1.5 - self.STARTTEXT.get_rect()[3] / 2))
+					      	 	 self.SCREEN.get_height() / 1.5 - self.STARTTEXT.get_rect()[3] / 2))
 			while not self.STARTED:
 				for event in pygame.event.get():
 					if event.type == pygame.QUIT:
@@ -252,7 +252,7 @@ class Game:
 			highscore = Highscore( self.HIGHSCOREPATH )	
 			highscore.addScore(self.USERNAME, self.SCORE )
 			highscore.displayScore(self.SCREEN.get_width(),
-								   self.SCREEN.get_height())
+					       self.SCREEN.get_height())
 			#Restart
 			self.playScreen()
 			
@@ -273,8 +273,8 @@ class Game:
 		if self.WALLSTIMER >= self.WALLSINTERVAL:
 			self.WALLSTIMER = 0
 			self.WALLS.add(Wall(self.SCREEN.get_height(), 
-								self.SCREEN.get_width(),
-								self.WALLSWIDTH))
+					    self.SCREEN.get_width(),
+					    self.WALLSWIDTH))
 
 	def doScroll(self):
 		self.BACKGROUNDSCROLLINGSPEED -= self.SPEED/3
