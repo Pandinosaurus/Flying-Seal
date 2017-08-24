@@ -6,6 +6,8 @@
 import sys, pygame
 from colours import *
 
+#Load, update and display highscores
+#Format: name score \n
 class Highscore:
 	def __init__(self, path):
 		#Make sure pygame has been activated
