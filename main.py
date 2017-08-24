@@ -10,7 +10,6 @@
 # *add sounds
 # *create separated structures for each levels (background, to change walls skins + sounds)
 # *simplify the names and comments in wall.py
-# *fix issue on MacOs : game far more (too) slow compared with linux and windows
 
 import os, pygame, sys, random
 from pygame import *    #the big lib
@@ -31,8 +30,8 @@ class Game:
                 pygame.display.set_icon(icon)
 
         def reset(self):
-                self.initStatus()
                 self.initScreen()
+                self.initStatus()
                 self.initBackground()
                 self.initUser()
                 self.initScore()
@@ -49,7 +48,7 @@ class Game:
                 self.FPS = 60
                 self.STARTED = False
                 self.HIT = False
-                self.SPEED = 6
+                self.SPEED = 15
 
         def initScreen(self):
                 self.SCREENWIDTH = 300
