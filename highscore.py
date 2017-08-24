@@ -80,7 +80,7 @@ class Highscore:
 		#Make sure you show the latest values / model
 		self.reloadScoreData()
 
-		#Adapt font size to screen based on Highscores title
+		#Adapt font size to screen based on Highscores title text
 		font = pygame.font.SysFont('Arial',self.textSize, True)
 		sampleText = font.render("SAMPLE", False, yellow)
 		while max(width/2 - sampleText.get_rect()[2]/2 - self.usernameLength*self.textSize/2,5) == 5:
@@ -93,7 +93,7 @@ class Highscore:
 		indx= 0
 		highscoreText = font.render("Highscores", False, yellow)
 		self.screen.blit(highscoreText, (width/2   - highscoreText.get_rect()[2]/2, 
-										 height/10 + 2*self.textSize*indx - textHeight/2))
+						 height/10 + 2*self.textSize*indx - textHeight/2))
 		
 		#Print highscores and color the current added one if value exist
 		indx = 1
@@ -108,9 +108,9 @@ class Highscore:
 			usernameText = font.render(str(score.split()[0]), False, scoreColor)
 			scoreText    = font.render(str(score.split()[1]), False, scoreColor)
 			self.screen.blit(usernameText, (width/2   - self.textSize*self.usernameLength/2, 
-										    height/10 + 2*self.textSize*indx - textHeight/2))
+							height/10 + 2*self.textSize*indx - textHeight/2))
 			self.screen.blit(scoreText,    (width/2   + self.textSize*self.usernameLength/4, 
-										    height/10 + 2*self.textSize*indx - textHeight/2))					
+							height/10 + 2*self.textSize*indx - textHeight/2))					
 			indx += 1
 		#indx should be equal to 6		
 
@@ -119,18 +119,18 @@ class Highscore:
 		if self.latestScore >= self.worstHighscore:
 			newHighscoreText = font.render("NEW HIGHSCORE ACHIEVED", False, yellow)
 			self.screen.blit(newHighscoreText, (width/2   - newHighscoreText.get_rect()[2]/2, 
-											    height/10 + 2*self.textSize*indx - textHeight/2))
+							    height/10 + 2*self.textSize*indx - textHeight/2))
 		else:		
 			yourScoreText = font.render("Your score is : "+str(max(self.latestScore,0)), False, yellow)
 			self.screen.blit(yourScoreText, (width/2   - yourScoreText.get_rect()[2]/2, 
-											 height/10 + 2*self.textSize*indx - textHeight/2))
+							height/10 + 2*self.textSize*indx - textHeight/2))
 		#indx should equal to 8
 
 		#Print retry message
 		indx += 2
 		retryText = font.render('Press any key to try again', False, cyan)
 		self.screen.blit(retryText, (width/2    - retryText.get_rect()[2]/2, 
-									 height/10 + 2*self.textSize*indx - textHeight/2))
+					     height/10 + 2*self.textSize*indx - textHeight/2))
 
 		#indx should be equal to 10
 
