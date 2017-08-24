@@ -49,7 +49,7 @@ class Game:
                 self.FPS = 60
                 self.STARTED = False
                 self.HIT = False
-                self.SPEED = 12
+                self.SPEED = 6
 
         def initScreen(self):
                 self.SCREENWIDTH = 300
@@ -98,8 +98,8 @@ class Game:
                 #Set a sprite for the player(s)
                 self.PLAYERSIZE = (80,40)
                 self.PLAYERSKINPATH = "./ressources/Players/SealDraw.png"
-                self.PLAYERJUMPVELOCITY = 20
-                self.PLAYERGRAVITY = 2*0.81
+                self.PLAYERJUMPVELOCITY = 14
+                self.PLAYERGRAVITY = 0.81
                 self.PLAYER = Player(self.PLAYERSIZE, 
                                      self.PLAYERSKINPATH, 
                                      self.PLAYERJUMPVELOCITY, 
