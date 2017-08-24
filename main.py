@@ -16,7 +16,7 @@ import os, pygame, sys, random
 from pygame import *	#the big lib
 from colours import *   #contain the colors
 from highscore import * #the highscore view + manager
-from wall import * 	    #the obstacles
+from wall import * 	#the obstacles
 from player import *	#the player
 
 class Game:
