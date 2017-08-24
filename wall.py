@@ -8,7 +8,7 @@ from colours import *
 
 class Wall(pygame.sprite.Sprite):
 	#Params
-	GAP = 170	  		#hole to let the user pass
+	GAP = 170	  	#hole to let the user pass
 	GAPRATIO = 1./2. 	#Used to randomly size upper and lower sides of the walls
 
 	def __init__(self, screenHeight, screenwidth, width):
@@ -16,7 +16,8 @@ class Wall(pygame.sprite.Sprite):
 		pygame.sprite.Sprite.__init__(self)
 
 		#Random wall Gap position
-		topHeight = random.randint(round((1./10.)*Wall.GAPRATIO*screenHeight), round((1.0 - Wall.GAPRATIO)*screenHeight))
+		topHeight = random.randint(round((1./10.)*Wall.GAPRATIO*screenHeight), 
+					   round((1.0 - Wall.GAPRATIO)*screenHeight))
 		bottomHeight = max(screenHeight - topHeight - Wall.GAP, 1)
 
 		#Top wall
