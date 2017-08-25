@@ -6,15 +6,14 @@ Sealy is not like the other seals : he can fly! <br/>
 Thanks to this ability, the elders ask him to travel the world to find the mysterious Seal Sea... <br/>
 Are you ready to fly for a fantastic journey with Sealy? <br/>
 <br/>
-Watch Me <br/>
 [![Watch me](https://img.youtube.com/vi/3ZQwRB19KwM/0.jpg)](https://www.youtube.com/watch?v=3ZQwRB19KwM "Watch me") <br/>
 <br/>
 == Launch == <br/>
-$ python main.py
+$ python main.py <br/>
 <br/>
 == Requirements == <br/>
-- Python 2.7 - <br/>
-- Pygame - <br/>
+Python 2.7 <br/>
+Pygame <br/>
 <br/>
 == Useful links == <br/>
 https://www.python.org/downloads/ <br/>
