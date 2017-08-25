@@ -21,6 +21,3 @@ https://www.python.org/about/gettingstarted/ <br/>
 http://www.pygame.org/download.shtml <br/>
 https://www.pygame.org/wiki/GettingStarted <br/>
 https://stackoverflow.com/questions/22974339/pygame-installation-issue-in-mac-os <br/>
-
-== Issues == <br/>
-https://stackoverflow.com/questions/31685936/pygame-application-runs-slower-on-mac-than-on-pc <br/>
