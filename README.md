@@ -3,7 +3,7 @@ Contact : Remi.Ratajczak@gmail.com <br/>
 <br/>
 == History == <br/>
 Sealy is not like the other seals : he can fly! <br/>
-Thanks to this ability, the elders ask him to travel the world to find the mysterious Seal Sea... <br/>
+Thanks to this ability, the elders asked him to travel the world to find the mysterious Seal Sea... <br/>
 Are you ready to fly for a fantastic journey with Sealy? <br/>
 <br/>
 == Video == <br/>
