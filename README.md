@@ -7,7 +7,10 @@ Thanks to this ability, the elders asked him to travel the world to find the mys
 Are you ready to fly for a fantastic journey with Sealy? <br/>
 <br/>
 == Video == <br/>
-[![Watch me](https://img.youtube.com/vi/3ZQwRB19KwM/1.jpg)](https://www.youtube.com/watch?v=3ZQwRB19KwM "Watch me") <br/>
+<a href="url"><img src="./ressources/readmeImages/startScreen.png" align="left" height="40%" width="25%" link="https://www.youtube.com/watch?v=3ZQwRB19KwM"></a>
+<a href="url"><img src="./ressources/readmeImages/playScreen.png" align="left" height="40%" width="25%" link="https://www.youtube.com/watch?v=3ZQwRB19KwM"></a>
+<a href="url"><img src="./ressources/readmeImages/highscoreScreen.png" align="left" height="40%" width="25%" link="https://www.youtube.com/watch?v=3ZQwRB19KwM"></a>
+<br/>
 <br/>
 == Launch == <br/>
 python main.py <br/>
