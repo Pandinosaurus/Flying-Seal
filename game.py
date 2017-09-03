@@ -201,56 +201,56 @@ class Game:
 		self.playLoop()
 
 	def highscoreScreen(self):
-			#Display highscore SCREEN - no need to keep it in class
-			#only called when user fail
-			#plus it reload when score is added 
-			highscore = Highscore( self.HIGHSCOREPATH )	
-			highscore.addScore(self.USERNAME, self.SCORE )
-			highscore.displayScore(self.SCREEN.get_width(),
-								   self.SCREEN.get_height())
-			#Restart
-			self.playScreen()
+		#Display highscore SCREEN - no need to keep it in class
+		#only called when user fail
+		#plus it reload when score is added 
+		highscore = Highscore( self.HIGHSCOREPATH )	
+		highscore.addScore(self.USERNAME, self.SCORE )
+		highscore.displayScore(self.SCREEN.get_width(),
+                                       self.SCREEN.get_height())
+		#Restart
+		self.playScreen()
 
 	def playLoop(self):
 		self.resetButUser()
 		while True:
 			#Set clock for fps purpose
-		  	clock = pygame.time.Clock()
+                        clock = pygame.time.Clock()
 
 			#Check if we should wait a user action before to play
-			if self.STARTED == False:
-				self.waitForStart()
+                        if self.STARTED == False:
+                                self.waitForStart()
 
 			#Check if player hurt an obstacle
-			if self.HIT == True: 
-				self.highscoreScreen()
+                        if self.HIT == True: 
+                                self.highscoreScreen()
 		
-			#jump if user decided to jump
-			self.doJump()
+                        #jump if user decided to jump
+                        self.doJump()
 
 			#add wall obstacles 
-			self.doWall()
+                        self.doWall()
 
 			#Set the next background frame (scrolling)
-			self.doScroll()
+                        self.doScroll()
 	
 			#Update the sprites (player that jumped and the obstacles)
-			self.doSpritesUpdate()	
+                        self.doSpritesUpdate()	
 		
 			#Check if user failed
-			self.doCheckFailed()
+                        self.doCheckFailed()
 		
 			#Set the score
-			self.doScore()  	
+                        self.doScore()  	
 	
 			#Render elements
-			self.doRender()
+                        self.doRender()
 
 			#Update the view
-			self.updateDisplay()
+                        self.updateDisplay()
 
 			#Wait a few milliseconds
-			clock.tick(self.FPS)
+                        clock.tick(self.FPS)
 
 	def waitForStart(self):
 		if not self.STARTED :
