@@ -6,10 +6,8 @@
    
 <a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="./ressources/readmeImages/startScreen.png" align="center" height="40%" width="25%"></a> 
 <a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="./ressources/readmeImages/playScreen.png" align="center" height="40%" width="25%"></a>
-<a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="./ressources/readmeImages/highscoreScreen.png" align="center" height="40%" width="25%"></a> 
+<a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="videos/FlyingSeal_01.gif" align="center" height="40%" width="25%"></a> 
 <br>
-![](videos/FlyingSeal_01.gif?raw=true)
-
 <h2> Launch </h2> 
 <p> >> python main.py </p>
 <h2> Requirements </h2> 
