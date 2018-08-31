@@ -6,7 +6,7 @@
 <a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="videos/FlyingSeal_01.gif" align="center" height="80%" width="80%"></a> 
 <br>
 <h2> Launch </h2> 
-<p> >> python main.py </p>
+>> python main.py
 <h2> Requirements </h2> 
 <p> - Python 2.7 <br/> - Pygame </p>
 <h2> Useful links </h2>
