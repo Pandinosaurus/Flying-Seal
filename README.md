@@ -3,10 +3,7 @@
 <h2> History </h2>
 <p> Sealy is not like the other seals : he can fly! <br/> Thanks to this ability, the elders asked him to travel the world to find the mysterious Seal Sea... <br/> Are you ready to fly for a fantastic journey with Sealy? </p> 
 <h2> Video </h2>
-   
-<a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="./ressources/readmeImages/startScreen.png" align="center" height="40%" width="25%"></a> 
-<a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="./ressources/readmeImages/playScreen.png" align="center" height="40%" width="25%"></a>
-<a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="videos/FlyingSeal_01.gif" align="center" height="40%" width="25%"></a> 
+<a href="https://www.youtube.com/watch?v=3ZQwRB19KwM"><img src="videos/FlyingSeal_01.gif" align="center" height="200%" width="200%"></a> 
 <br>
 <h2> Launch </h2> 
 <p> >> python main.py </p>
