@@ -1,5 +1,5 @@
 <h1> FlyingSeal </h1>
-<p> An addictive desktop arcade game based on the "Flappy Bird" concept.  </p>
+<p> An addictive desktop arcade game based on the "Flappy Bird" concept. If you are interessted, you can build it in an afternoon up to a week end while learning pygame. </p>
 <h2> History </h2>
 <p> Sealy is not like the other seals : he can fly! <br/> Thanks to this ability, the elders asked him to travel the world to find the mysterious Seal Sea... <br/> Are you ready to fly for a fantastic journey with Sealy? </p> 
 <h2> Video </h2>
